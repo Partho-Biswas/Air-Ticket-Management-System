@@ -1,2 +1,3 @@
 # Air-Ticket-Management-System
-This is an Air Ticket Management System Project which is created with Java and Swing
+This is an Air Ticket Management System Project which is created with Java and Swing. 
+This is a simple project made with Java Language and JSwing. This project allows us to see the Flight Details, add customers,  book flight to an existing customers, see the customers list who have booked flight, see all the passenger list, generate the Boarding Pass after purchasing a ticket, details about the journey, cancel ticket at any time. There is no external database is used. I have used File Handling method to access and store the informations in the main directory. This is a hassle free project with basic knowledge of Java.

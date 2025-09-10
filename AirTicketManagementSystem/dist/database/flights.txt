@@ -1,0 +1,5 @@
+Biman Bangladesh Airlines,Dhaka,Dubai,AI-201, 50000.00
+US-Bangla Airlines,Cox's Bazar,London,AI-101, 85000.00
+Air Astra,Dhaka,Singapore,6E-1865, 65800.00
+NovoAir,Chittagong,Moscow,SG-115, 49000.00
+GMG Airlines,Sylhet,Thailand,JB-007, 35000.00

@@ -1,12 +1,11 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
-import javax.swing.BorderFactory;
-import javax.swing.border.Border;
 import java.awt.*;
+import java.util.List;
+import javax.swing.*;
+import javax.swing.border.Border;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
-import java.util.List;
 
 public class FlightInfo extends JFrame {
     
@@ -25,7 +24,7 @@ public class FlightInfo extends JFrame {
         add(heading, BorderLayout.NORTH);
         
         // Create table with column names
-        String[] columnNames = {"Flight Name", "Source", "Destination", "Flight Code", "Ticket Fare"};
+        String[] columnNames = {"Flight Name", "Source", "Destination", "Flight Code", "Ticket Fare (TK.)"};
         DefaultTableModel model = new DefaultTableModel(columnNames, 0);
         JTable table = new JTable(model);
         

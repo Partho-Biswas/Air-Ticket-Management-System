@@ -1,8 +1,8 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class AddCustomer extends JFrame implements ActionListener{
     

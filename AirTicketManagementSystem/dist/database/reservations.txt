@@ -1,0 +1,2 @@
+PNR-842570,TIC-1652,6545698780,Ripon Al Mamun,Japanese,US-Bangla Airlines,AI-101, 85000.00,Cox's Bazar,London,15-01-2026
+PNR-757073,TIC-6043,1155997733,Apurbo Chandra Paul,Russian,NovoAir,SG-115, 49000.00,Chittagong,Moscow,19-10-2025

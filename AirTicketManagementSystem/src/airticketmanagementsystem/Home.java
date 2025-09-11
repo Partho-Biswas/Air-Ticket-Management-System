@@ -1,8 +1,8 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class Home extends JFrame implements ActionListener {
 
@@ -115,6 +115,7 @@ public class Home extends JFrame implements ActionListener {
         menubar.add(exitButton);
 
         setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
 
@@ -200,9 +201,9 @@ public class Home extends JFrame implements ActionListener {
             new JourneyDetails();
         } else if (text.equals("Cancel Ticket")) {
             new Cancel();
-        } else if (text.equals("Customer List")) {
-            new CustomerList();
         } else if (text.equals("Passenger List")) {
+            new CustomerList();
+        } else if (text.equals("Customer List")) {
             new PassengerList();
         } else if (text.equals("EXIT")) {
             int confirm = JOptionPane.showConfirmDialog(this,

@@ -1,9 +1,8 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
+import javax.swing.*;
 
 public class BoardingPass extends JFrame implements ActionListener{
     
@@ -46,7 +45,7 @@ public class BoardingPass extends JFrame implements ActionListener{
         add(lblname);
         
         tfname = new JLabel();
-        tfname.setBounds(210, 140, 150, 25);
+        tfname.setBounds(210, 140, 400, 25);
         tfname.setFont(new Font("Tahoma", Font.BOLD, 19));
         add(tfname);
         

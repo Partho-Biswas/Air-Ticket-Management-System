@@ -1,10 +1,10 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
+import javax.swing.*;
 
 public final class Login extends JFrame implements ActionListener {
     JButton submit, reset, close;
@@ -98,6 +98,7 @@ public final class Login extends JFrame implements ActionListener {
 
         setSize(400, 280);
         setLocationRelativeTo(null);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
 

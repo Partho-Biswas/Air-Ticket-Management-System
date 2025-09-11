@@ -1,21 +1,21 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.List;
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 
 public class CustomerList extends JFrame {
     
     public CustomerList() {
-        setTitle("Customer List - Flight Booking System");
+        setTitle("Passenger List - Flight Booking System");
         getContentPane().setBackground(Color.WHITE);
         setLayout(new BorderLayout());
         
         ImageIcon icon = new ImageIcon(ClassLoader.getSystemResource("airticketmanagementsystem/icons/logo4.jpg"));
         setIconImage(icon.getImage());
         
-        JLabel heading = new JLabel("CUSTOMERS WITH BOOKED FLIGHTS", SwingConstants.CENTER);
+        JLabel heading = new JLabel("PASSENGERS WITH BOOKED FLIGHTS", SwingConstants.CENTER);
         heading.setFont(new Font("Tahoma", Font.BOLD, 24));
         heading.setForeground(Color.DARK_GRAY);
         heading.setBorder(BorderFactory.createEmptyBorder(20, 0, 20, 0));

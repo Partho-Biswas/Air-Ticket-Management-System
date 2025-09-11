@@ -1,11 +1,11 @@
 package airticketmanagementsystem;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
-import java.text.SimpleDateFormat;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import javax.swing.*;
 
 public class BookFlight extends JFrame implements ActionListener{
     

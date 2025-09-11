@@ -1,1 +1,3 @@
 PNR-487821,TIC-6323,6666555544,Md. Al Imran,Bangladeshi,Biman Bangladesh Airlines,AI-201, 50000.00,Dhaka,Dubai,15-11-2025
+
+PNR-996356,TIC-1044,8888999977,Ripon AL Mamun,Russian,GMG Airlines,JB-007, 35000.00,Sylhet,Thailand,05-01-2026
